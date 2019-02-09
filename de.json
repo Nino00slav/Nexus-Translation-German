@@ -57,8 +57,8 @@
   "sendReceive.SelectAnAccount": "Wählen Sie ein Konto aus",
   "sendReceive.FromAccount": "Vom Konto",
   "sendReceive.ToAccount": "Zum Konto",
-  "sendReceive.MoveNXS": "NXS Übertragen",
-  "sendReceive.MoveNxsBetweenAccount": "NXS zwischen den Konten übertragen",
+  "sendReceive.MoveNXS": "Jetzt Übertragen",
+  "sendReceive.MoveNxsBetweenAccount": "Eigenübertrag zwischen den Konten",
   "sendReceive.Contacts": "Kontakte",
   "sendReceive.SendFrom": "Sende von",
   "sendReceive.SendTo": "Send nach",
@@ -94,8 +94,8 @@
   "transactions.blocknumber": "Blocknummer",
   "transactions.Transactions": "Transaktionen",
   "transactions.SearchAddress": "Adresse suchen",
-  "transactions.Type": "Typ",
-  "transactions.All": "Alles",
+  "transactions.Type": "Transaktionen",
+  "transactions.All": "Alle",
   "transactions.Receive": "Empfangen",
   "transactions.Sent": "Versendet",
   "transactions.Genesis": "Genesis",
@@ -107,11 +107,11 @@
   "transactions.PastWeek": "Letzte Woche",
   "transactions.Download": "Herunterladen",
   "transactions.TX": "TX Nummer",
-  "transactions.Category": "KATEGORIE",
+  "transactions.Category": "TRANSAKTION",
   "transactions.Amount": "BETRAG",
   "transactions.Account": "KONTO",
   "transactions.Address": "ADRESSE",
-  "transactions.Time": "Zeitspanne",
+  "transactions.Time": "ZEITPUNKT",
   "transactions.Previous": "Vorherige",
   "transactions.Next": "Nächste",
   "transactions.MyAccount": "Mein Konto",
@@ -316,10 +316,10 @@
   "Settings.EnterYourPassword": "Geben Sie Ihr Passwort ein",
 
 //  de-changes.json in
-  "Settings.LoginDate": "Einloggen bis (Datum)", // ???
-  "Settings.LoginTime": "einloggen bis (Uhrzeit)", // ???
+  "Settings.LoginDate": "Einloggen bis Datum", // ???
+  "Settings.LoginTime": "Einloggen bis Uhrzeit", // ???
   "Settings.PasswordPlaceholder": "Ihr Wallet Passwort",
-  "Settings.StakingOnly": "Einloggen um zu Staken",
+  "Settings.StakingOnly": "Nur zum Staken freigeben",
   "Settings.LogOut": "Ausloggen",
   "Settings.ConfirmLogOut": "Sind Sie sicher das Sie ausloggen wollen?",
   "Settings.ResetThemeNoti": "Das Farbschema wurde zurückgesetzt",
