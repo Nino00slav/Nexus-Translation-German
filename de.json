@@ -448,7 +448,7 @@
   "Alert.nodefaultname": "Das Konto kann nicht * oder default genannt werden",
   "Alert.ManualDaemonDown": "Manueller Daemon ist inaktiv",
   "Alert.ErrorEncrypting": "Fehler beim entsperren der Wallet",
-  "Alert.ColorSchemeDefault": "Farbschema wurde auf Standarteinstellungen zurückgesetzt",
+  "Alert.ColorSchemeDefault": "Farbschema wurde auf Standardeinstellungen zurückgesetzt",
   "Alert.InvalidFileFormat": "Ungültiges Dateiformat! Das benutzerdefinierte Design muss im JSON Format vorliegen.",
   "Alert.ClosingNexus": "Nexus schließen",
 
