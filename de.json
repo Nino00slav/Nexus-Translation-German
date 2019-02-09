@@ -16,7 +16,7 @@
   "overview.MarketPrice": "Marktpreis",
   "overview.MarketCap": "Marktkapitalisierung",
   "overview.CirculatingSupply": "NXS im Umlauf",
-  "overview.24hrChange": "24 Stunden Änderung",
+  "overview.24hrChange": "Wertentwicklung 24h",
   "overview.Connections": "Verbindungen",
   "overview.BlockCount": "Blockhöhe", // Im Kontext besser
   "overview.InterestRate": "Zinssatz", // Im Kontext besser
@@ -101,7 +101,7 @@
   "transactions.Genesis": "Genesis",
   "transactions.Trust": "Trust",
   "transactions.MinimumAmount": "Mindestbetrag",
-  "transactions.TimeSpan": "Zeitspanne",
+  "transactions.TimeSpan": "Zeitraum",
   "transactions.PastYear": "Letztes Jahr",
   "transactions.PastMonth": "Letzten Monat",
   "transactions.PastWeek": "Letzte Woche",
