@@ -118,7 +118,7 @@
   "transactions.Received": "Empfangen",
   "transactions.AMOUNT": "Betrag: ",
   "transactions.TIME": "Uhrzeit: ",
-  "transactions.Loading": "Bitte warten bis der Daemon geladen ist",
+  "transactions.Loading": "Daemon wird geladen, bitte warten",
   "transactions.MyAddress": "Meine Adresse",
   "transactions.Page": "Seite",
   "transactions.Rows": "Zeile",
@@ -156,7 +156,7 @@
   "Market.Open": "Öffnen",
   "Market.Close": "Schließen",
   "Market.High": "Hoch",
-  "Market.Low": "Niedrig",
+  "Market.Low": "Tief",
   "Market.Date": "Datum",
   
   "Market.PriceChange": "Preisänderung",
@@ -196,7 +196,7 @@
   "AddressBook.Addresses": "Adressen",
   "AddressBook.MyAccount": "Mein Konto",
   "AddressBook.EnterAddressName": "Geben Sie den Name der Adresse ein",
-  "AddressBook.Loading": "Bitte warten Sie, bis der Daemon geladen ist",
+  "AddressBook.Loading": "Daemon wird geladen, bitte warten",
   "AddressBook.NoContacts": "Keine Kontakte",
   "AddressBook.NXSAddress": "NXS Adresse",
   "AddressBook.InvalidAccountName": "Ungültige Kontobezeichnung",
@@ -316,15 +316,15 @@
   "Settings.EnterYourPassword": "Geben Sie Ihr Passwort ein",
 
 //  de-changes.json in
-  "Settings.LoginDate": "Login Until Date", // ???
-  "Settings.LoginTime": "Login Until Time", // ???
+  "Settings.LoginDate": "Einloggen bis (Datum)", // ???
+  "Settings.LoginTime": "einloggen bis (Uhrzeit)", // ???
   "Settings.PasswordPlaceholder": "Ihr Wallet Passwort",
   "Settings.StakingOnly": "Einloggen um zu Staken",
   "Settings.LogOut": "Ausloggen",
   "Settings.ConfirmLogOut": "Sind Sie sicher das Sie ausloggen wollen?",
   "Settings.ResetThemeNoti": "Das Farbschema wurde zurückgesetzt",
-  "Settings.StarryBackground": "Glitzernder Sternenhimmel",
-  "Settings.LightBackground": "Cosmic Light",
+  "Settings.StarryBackground": "Sternenhimmel",
+  "Settings.LightBackground": "Kosmisches Licht",
   "Settings.CustomWallpaper": "Benutzerdefiniertes Hintergrundbild",
   "Settings.SelectCustomWallpaper": "Benutzerdefiniertes Hintergrundbild auswählen",
   "Settings.BackupDir": "Backup Verzeichnis",
@@ -346,12 +346,12 @@
 
 //  de-changes.json in
 //  "Settings.AutoUpdate": "Auto Update (Recommended)", DOPPELT
-  "Settings.AutoUpdateNote": "Automatisch nach neuer Wallet Version suchen und informieren eine verfügbar ist",
+  "Settings.AutoUpdateNote": "Automatisch nach einer neuen Walletversionen suchen und mich benachrichtigen",
 //  "Settings.DisableAutoUpdate": "Are you sure you want to disable Auto Update?", DOPPELT
   "Settings.DisableAutoUpdateNote": "Aus Sicherheitsgründen ist es wichtig immer die aktuellste Version der Wallet zu verwenden",
 //  "Settings.KeepAutoUpdate": "Keep Auto Update On",
 //  "Settings.TurnOffAutoUpdate": "Turn Auto Update Off",
-  "Settings.DaemonLoading": "Bitte warten bis der Daemon geladen ist",
+  "Settings.DaemonLoading": "Daemon wird geladen, bitte warten",
   "Settings.SettingsSaved": "Einstellung gespeichert",
   "Settings.SavingSettings": "Einstellung speichern...",
   "Settings.RestartingDaemon": "Starte Daemon neu...",
@@ -449,7 +449,7 @@
 
 //  de-changes.json in
   "Exchange.PreciseExplanation": "Trade zum exakten Wechselkurs", 
-  "Exchange.FastExplanation": "Jetzt traden", // trade now = jetzt handeln ist ultradoppeldeutig 
+  "Exchange.FastExplanation": "Jetzt traden", // trade now = jetzt handeln ist ultradoppeldeutig
   "Exchange.BCAddress": "Adresse",
 //  de-changes.json out
   
@@ -484,9 +484,9 @@
   "ToolTip.GettingNextBlock": "Nächster Block wird empfangen...",
   "ToolTip.SystemStartUP": "Automatisches Starten der Wallet bei jedem Systemstart",
   "ToolTip.MinimizeTheWallet": "Wallet in die Taskleiste minimieren",
-  "ToolTip.MinimizeOnClose": "Beim schließen des Fensters Wallet minimieren anstatt zu schließen",
+  "ToolTip.MinimizeOnClose": "Die Wallet beim schließen des Fensters minimieren anstatt zu schließen",
   "ToolTip.ShowPopups": "Popups anzeigen",
-  "ToolTip.Usage": "Nutzungsdaten anonym senden, damit die Nexus-Entwickler die Wallet stetig verbessern können",
+  "ToolTip.Usage": "Helfen Sie den Nexus-Entwickler die Wallet stetig zu verbessern und senden Sie uns Ihre Nutzungsdaten anonym zu",
   "ToolTip.OptionalFee": "Optionale Transaktionsgebühr für Transaktionen. Höhere Gebühren ermöglichen eine schnellere Abwicklung von Transaktionen, niedrigere können zusätzliche Transaktionsverarbeitungen verursachen",
   "ToolTip.DevMode": "Der Entwicklungsmodus ermöglicht erweiterte Funktionen zur Unterstützung bei der Entwicklung. Um diese Funktionen nutzen zu können, muss nach der Aktivierung die Wallet geschlossen und wieder geöffnet werden.",
   "ToolTip.EnableMining": "Aktivieren / Deaktivieren des Minings in der Wallet",
