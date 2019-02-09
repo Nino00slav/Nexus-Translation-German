@@ -342,7 +342,7 @@
   "Settings.KeepAutoUpdate": "Automatisches Update aktiviert lassen",
   "Settings.TurnOffAutoUpdate": "Automatisches Update deaktivieren",
   "Settings.AutoUpdate": "Automatisches Update (Empfohlen)",
-  "Settings.AutoUpdateDescription": "Automatisch nach neuer Wallet Version suchen und informieren eine verfügbar ist",
+  "Settings.AutoUpdateDescription": "Automatisch nach neuer Wallet Version suchen und informieren wenn eine verfügbar ist",
 
 //  de-changes.json in
 //  "Settings.AutoUpdate": "Auto Update (Recommended)", DOPPELT
@@ -375,9 +375,9 @@
   "Settings.Errors.ManualDaemonDataDir": "Daten Verzeichniss wird benötigt",
   "Settings.Errors.Socks4PoxyIP": "IP des SOCKS4 Proxy erforderlich",
   "Settings.Errors.Socks4PoxyPort": "Post des SOCKS4 Proxy erforderlich",
-  "Settings.Errors.SettingTxFee": "Fehler beim setzen der Überweisungs Gebühr",
+  "Settings.Errors.SettingTxFee": "Fehler beim festlegen der Überweisungsgebühr",
   "Settings.Errors.LoggingOut": "Fehler beim ausloggen",
-  "Settings.Errors.ChangingPassword": "Error changing password",
+  "Settings.Errors.ChangingPassword": "Fehler beim ändern des Passwort",
   "Settings.Errors.PasswordRequired": "Passwort erforderlich",
   "Settings.Errors.PasswordInvalidChars": "Passwort darf folgende Zeichen nicht enthalten: - $ / & * | < >",
   "Settings.Errors.PasswordMinLength": "!! Passwort muss mindestens 8 Zeichen enthalten !!", 
