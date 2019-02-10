@@ -560,7 +560,7 @@
   "Alert.InvalidFileFormat": "Ungültiges Dateiformat! Das benutzerdefinierte Design muss im JSON Format vorliegen",
   "Alert.ClosingNexus": "Nexus schließen",
     
-  "Common.UnknownError": "Ein unbekannter Fehler ist aufgetreten"
+  "Common.UnknownError": "Ein unbekannter Fehler ist aufgetreten",
   
   "Cp.AC1": "Akzentfarbe 1",
   "Cp.AC2": "Akzentfarbe 2",
