@@ -1,8 +1,3 @@
-// interne Kommentare - später löschen!
-// PrivateKey = Übersetzen oder nicht? Oder setzt man den Fachbegriff in Klammer = Privater Schlüssel (PrivateKey)?
-// Exchange = Börse, Handelsplatform oder Exchange?
-// Daemon = Daemon oder Dienst? Wenn man den manuell ausführt weis man was man tut - ich würde bei Daemon bleiben
-
 {
   "overview.TrustWeight": "Trust Faktor",
   "overview.LicensceAgreement": "Lizenzvereinbarung",
@@ -18,8 +13,8 @@
   "overview.CirculatingSupply": "NXS im Umlauf",
   "overview.24hrChange": "Wertentwicklung 24h",
   "overview.Connections": "Verbindungen",
-  "overview.BlockCount": "Blockhöhe", // Im Kontext besser
-  "overview.InterestRate": "Zinssatz", // Im Kontext besser
+  "overview.BlockCount": "Blockhöhe",
+  "overview.InterestRate": "Zinssatz",
   "overview.StakeWeight": "Stake Faktor",
   "overview.Globe": "Globus beinhaltet GeoLite2",
 
@@ -65,12 +60,9 @@
 
   "sendReceive.AddRecipient": "Empfänger hinzufügen",
   "sendReceive.NotLoggedIn": "Sie sind nicht eingeloggt",
-  "sendReceive.NeedToLogin": "Um Transakionen zu tätigen müssen Sie sich einloggen",
+  "sendReceive.NeedToLogin": "Um Transaktionen zu tätigen müssen Sie sich einloggen",
   "sendReceive.MultipleRecipients": "An mehrere Empfänger senden",
 
-//  de-changes.json in
-//  "sendReceive.SendFrom": "Send From", DOPPELT
-//  "sendReceive.SendTo": "Send To", DOPPELT
   "sendReceive.RecipientAddress": "Empfängeradresse",
   "sendReceive.AddRecipient": "Empfänger hinzufügen",
   "sendReceive.RemoveRecipient": "Empfänger entfernen",
@@ -78,13 +70,12 @@
   "sendReceive.Messages.NoAccounts": "Kein Konto ausgewählt",
   "sendReceive.Messages.NoRecipient": "Es muss zumindest einen Empfänger geben",
   "sendReceive.Messages.SameAccount": "Kann nicht auf das gleiche Konto überwiesen werden",
-  "sendReceive.Messages.ErrorMoving": "NXS überweisen fehlgeschlagen", // Kontext? move = bewegen
+  "sendReceive.Messages.ErrorMoving": "NXS überweisen fehlgeschlagen",
   "sendReceive.Messages.ErrorSending": "NXS senden fehlgeschlagen",
-  "sendReceive.Messages.NotLoggedIn": "Sie sind nicht eingelogged",
+  "sendReceive.Messages.NotLoggedIn": "Sie sind nicht eingeloggt",
   "sendReceive.Messages.NotLoggedInNote": "Sie müssen sich einloggen, bevor Sie etwas überweisen können",
-  "sendReceive.Messages.LogInNow": "Jetzt einloggen", // Kontext?
+  "sendReceive.Messages.LogInNow": "Jetzt einloggen",
   "sendReceive.Messages.Success": "NXS erfolgreich überwiesen",
- // de-changes.json out
   
   "transactions.MoreDetails": "Mehr Details",
   "transactions.Details": "Details zu den Transaktionen",
@@ -174,7 +165,7 @@
   "AddressBook.MyAddresses": "Meine Adressen",
   "AddressBook.addContact": "Kontakt hinzufügen",
   "AddressBook.Name": "Name",
-  "AddressBook.ClickToEdit": "Doppelklick zum bearbeiten",
+  "AddressBook.ClickToEdit": "Doppelklick zum Bearbeiten",
   "AddressBook.PhoneNumber": "Telefonnummer",
   "AddressBook.Phone": "Telefon #",
   "AddressBook.Notes": "Anmerkungen",
@@ -201,7 +192,7 @@
   "AddressBook.NXSAddress": "NXS Adresse",
   "AddressBook.InvalidAccountName": "Ungültige Kontobezeichnung",
   "AddressBook.NewAddressCreated": "Eine neue Adresse wurde erstellt",
-  "AddressBook.ErrorCreatingAddress": "Fehler beim erstellen der Adresse",
+  "AddressBook.ErrorCreatingAddress": "Fehler beim Erstellen der Adresse",
   "AddressBook.EnterNameOrPick": "Eine neue Kontobezeichnung eingeben oder ein existierendes Konto wählen",
 
   "Settings.Settings": "Einstellungen",
@@ -256,15 +247,15 @@
   "Settings.8Characters": "Das Passwort muss aus mindestens 8 Zeichen bestehen",
   "Settings.NoSpaces": "Das Passwort darf nicht mit einem Leerzeichen beginnen oder enden",
 
-  "Settings.KeyDisplayHere": "Der private Schlüssel wird hier angezeigt",
-  "Settings.ViewPrivateKey": "Privaten Schlüssel anzeigen",
+  "Settings.KeyDisplayHere": "Der Private Key wird hier angezeigt",
+  "Settings.ViewPrivateKey": "Private Key anzeigen",
   "Settings.Address": "Adresse",
   "Settings.EnterAddressHere": "Adresse hier eingeben",
-  "Settings.PrivateKey": "Privater Schlüssel",
+  "Settings.PrivateKey": "Private Key",
   "Settings.Copy": "Kopieren",
   "Settings.Paste": "Einfügen",
 
-  "Settings.ImportPrivateKey": "Privaten Schlüssel importieren",
+  "Settings.ImportPrivateKey": "Private Key importieren",
   "Settings.AccountName": "Kontoname",
 
   "Settings.Wallpaper": "Wählen Sie ein Hintergrundbild",
@@ -288,7 +279,7 @@
   "Settings.NoMatch": "Passwörter stimmen nicht überein",
   "Settings.Submit": "Senden",
   "Settings.LockWallet": "Wallet sperren",
-  "Settings.ViewPrivateKeyForAddress": "Den privaten Schlüssel für die Adresse anzeigen",
+  "Settings.ViewPrivateKeyForAddress": "Den Private Key für diese Adresse anzeigen",
   "Settings.EncryptRestart": "Verschlüsseln und Neustarten",
   "Settings.MinimumConfirmations": "Mindestanzahl der Bestätigungen",
   "Settings.Forkblock": "Fork Blöcke",
@@ -296,12 +287,12 @@
   "Settings.PickThemeFile": "Design auswählen",
 
   "Settings.AccountNameRequired": "Kontoname ist erforderlich",
-  "Settings.PrivateKeyRequired": "Privater Schlüssel ist erforderlich ",
-  "Settings.ImportedRescanning": "Privater Schlüssel importiert. Überprüfung läuft",
+  "Settings.PrivateKeyRequired": "Private Key ist erforderlich ",
+  "Settings.ImportedRescanning": "Private Key importiert. Überprüfung läuft",
   "Settings.Rescanning": "Überprüfe... ",
   "Settings.RescanningDone": "Überprüfung abgeschlossen",
   "Settings.ErrorRescanning": "Überprüfung fehlgeschlagen",
-  "Settings.ErrorImportingPrivateKey": "Importieren des privaten Schlüssel fehlgeschlagen",
+  "Settings.ErrorImportingPrivateKey": "Importieren des Private Key fehlgeschlagen",
 
   "Settings.Login": "Login",
   "Settings.DateRequired": "Bitte das Datum eingeben",
@@ -315,13 +306,12 @@
   "Settings.ErrorUnlockingWallet": "Entsperren der Wallet fehlgeschlagen",
   "Settings.EnterYourPassword": "Geben Sie Ihr Passwort ein",
 
-//  de-changes.json in
-  "Settings.LoginDate": "Einloggen bis Datum", // ???
-  "Settings.LoginTime": "Einloggen bis Uhrzeit", // ???
+  "Settings.LoginDate": "Einloggen bis Datum",
+  "Settings.LoginTime": "Einloggen bis Uhrzeit",
   "Settings.PasswordPlaceholder": "Ihr Wallet Passwort",
   "Settings.StakingOnly": "Nur zum Staken freigeben",
   "Settings.LogOut": "Ausloggen",
-  "Settings.ConfirmLogOut": "Sind Sie sicher das Sie ausloggen wollen?",
+  "Settings.ConfirmLogOut": "Sind Sie sicher dass Sie ausloggen wollen?",
   "Settings.ResetThemeNoti": "Das Farbschema wurde zurückgesetzt",
   "Settings.StarryBackground": "Sternenhimmel",
   "Settings.LightBackground": "Kosmisches Licht",
@@ -334,8 +324,6 @@
   "Settings.BackgroundSubLabel": "Hintergrundbild anpassen",
   "Settings.ColorScheme": "Farbschema",
   "Settings.SelectCustomTheme": "Benutzerdefiniertes Design wählen",
-//  de-changes.json out
-
   
   "Settings.DisableAutoUpdate": "Sind Sie sich sicher, dass Sie das automatische Update deaktivieren wollen?",
   "Settings.UpdateSuggestion": "Für das beste Nutzererlebnis und zu Ihrer eigenen Sicherheit ist es notwendig immer die neueste Version der Wallet zu verwenden.",
@@ -344,38 +332,30 @@
   "Settings.AutoUpdate": "Automatisches Update (Empfohlen)",
   "Settings.AutoUpdateDescription": "Automatisch nach neuer Wallet Version suchen und informieren wenn eine verfügbar ist",
 
-//  de-changes.json in
-//  "Settings.AutoUpdate": "Auto Update (Recommended)", DOPPELT
-  "Settings.AutoUpdateNote": "Automatisch nach einer neuen Walletversionen suchen und mich benachrichtigen",
-//  "Settings.DisableAutoUpdate": "Are you sure you want to disable Auto Update?", DOPPELT
+  "Settings.AutoUpdateNote": "Automatisch nach einer neuen Walletversion suchen und mich benachrichtigen",
   "Settings.DisableAutoUpdateNote": "Aus Sicherheitsgründen ist es wichtig immer die aktuellste Version der Wallet zu verwenden",
-//  "Settings.KeepAutoUpdate": "Keep Auto Update On",
-//  "Settings.TurnOffAutoUpdate": "Turn Auto Update Off",
   "Settings.DaemonLoading": "Daemon wird geladen, bitte warten",
   "Settings.SettingsSaved": "Einstellung gespeichert",
   "Settings.SavingSettings": "Einstellung speichern...",
   "Settings.RestartingDaemon": "Starte Daemon neu...",
-  "Settings.PrivKeyImported": "Privater Schlüssel importiert. Überprüfung läuft",
+  "Settings.PrivKeyImported": "Private Key importiert. Überprüfung läuft",
   "Settings.Rescanning": "Überprüfe...",
   "Settings.RescanningDone": "Überprüfung abgeschlossen",
   "Settings.Import": "Importiere",
-  "Settings.LoggedIn": "Erfolgreich eingelogged",
-//  de-changes.json out
+  "Settings.LoggedIn": "Erfolgreich eingeloggt",
   
   "Settings.DownloadRecentDatabase": "Neueste Datenbankversion herunterladen?",
   "Settings.DownloadDBInfo": "'Wenn Sie die aktuellste Datenbank herunterladen, ist Ihre Wallet schneller synchronisiert'",
   "Settings.SelectCustomTheme": "Benutzerdefiniertes Design auswählen",
   
-//  de-changes.json in  
-// unsicher ob im Kontext is required besser mit "ist erforderlich" oder "benötigt" übersetzt wird. Muss man in UI prüfen
   "Settings.Errors.ManualDaemonUser": "Benutzername des Daemon Username erforderlich",
   "Settings.Errors.ManualDaemonPassword": "Passwort des Daemon erforderlich",
   "Settings.Errors.ManualDaemonIP": "IP des Daemon erforderlich",
   "Settings.Errors.ManualDaemonPort": "Port des Daemon erforderlich",
-  "Settings.Errors.ManualDaemonDataDir": "Daten Verzeichniss wird benötigt",
+  "Settings.Errors.ManualDaemonDataDir": "Daten Verzeichnis wird benötigt",
   "Settings.Errors.Socks4PoxyIP": "IP des SOCKS4 Proxy erforderlich",
   "Settings.Errors.Socks4PoxyPort": "Post des SOCKS4 Proxy erforderlich",
-  "Settings.Errors.SettingTxFee": "Fehler beim festlegen der Überweisungsgebühr",
+  "Settings.Errors.SettingTxFee": "Fehler beim Festlegen der Überweisungsgebühr",
   "Settings.Errors.LoggingOut": "Fehler beim ausloggen",
   "Settings.Errors.ChangingPassword": "Fehler beim ändern des Passwort",
   "Settings.Errors.PasswordRequired": "Passwort erforderlich",
@@ -385,17 +365,16 @@
   "Settings.Errors.PasswordSpaces": "Das Passwort darf nicht mit einem Leerzeichen beginnen oder enden",
   "Settings.Errors.EncryptingWallet": "Fehler beim entsperren der Wallet",
   "Settings.Errors.AccountName": "Kontoname erforderlich",
-  "Settings.Errors.PrivateKey": "PrivateKey erforderlich",
+  "Settings.Errors.PrivateKey": "Private Key erforderlich",
   "Settings.Errors.Rescanning": "Fehler beim neu Einlesen der Wallet",
-  "Settings.Errors.ImportingPrivKey": "Fehler beim importieren des PrivateKey",
+  "Settings.Errors.ImportingPrivKey": "Fehler beim Importieren des Private Key",
   "Settings.Errors.LoginDate": "Datum erforderlich",
   "Settings.Errors.LoginTime": "Uhrzeit erforderlich",
   "Settings.Errors.LoginPassword": "Password erforderlich",
   "Settings.Errors.LoggingIn": "Fehler beim einloggen",
   "Settings.Errors.AddressEmpty": "Adressfeld darf nicht leer sein",
-  "Settings.Errors.ViewPrivKey": "Fehler den PrivateKey anzuzeigen", // Kontext = Anzeigen?
+  "Settings.Errors.ViewPrivKey": "Fehler den Private Key anzuzeigen",
   "Settings.Errors.InvalidJSON": "Ungültiges Dateiformat! Das benutzerdefinierte Design muss im JSON Format vorliegen",
-//  de-changes.json out  
   
   "BootStrap.Abort": "Abbrechen",
   "BootStrap.DownloadingTheDatabase": "Datenbank wird heruntergeladen",
@@ -435,7 +414,7 @@
   "Exchange.Send": "Senden",
   "Exchange.TradeAmount": "Handelsbetrag",
   "Exchange.MinTrade": "Minimaler Handel",
-  "Exchange.RefundAddress": "Adresse zur Rückerstattungs benötigt",
+  "Exchange.RefundAddress": "Adresse zur Rückerstattung benötigt",
   "Exchange.YouAreSending": "SIE SENDEN",
   "Exchange.YouWillReceive": "SIE EMPFANGEN",
   "Exchange.Receive": "Empfangen",
@@ -447,11 +426,9 @@
   "Exchange.TradeUnMet": "Handelsminimum unterschritten",
   "Exchange.AddressRequired": "Adresse wird benötigt",
 
-//  de-changes.json in
   "Exchange.PreciseExplanation": "Trade zum exakten Wechselkurs", 
-  "Exchange.FastExplanation": "Jetzt traden", // trade now = jetzt handeln ist ultradoppeldeutig
+  "Exchange.FastExplanation": "Jetzt traden",
   "Exchange.BCAddress": "Adresse",
-//  de-changes.json out
   
   "Footer.Overview": "Überblick",
   "Footer.Send": "Senden",
@@ -476,7 +453,6 @@
   "Header.UnlockedUntil": "Entsperrt bis {unlockDate}",
   "Header.StakingOnly": "Nur zum Staken entsperrt",
   "Header.Synced": "Synchronisiert",
-// "Header.Syncing": "Synchronisiere...\n Blöcke fehlen noch\n", ALT
   "Header.Syncing": "Synchronisiere...",
   "Header.Blocks": "Blöcke",
   "Header.DaemonNotLoaded": "Daemon nicht geladen",
@@ -484,7 +460,7 @@
   "ToolTip.GettingNextBlock": "Nächster Block wird empfangen...",
   "ToolTip.SystemStartUP": "Automatisches Starten der Wallet bei jedem Systemstart",
   "ToolTip.MinimizeTheWallet": "Wallet in die Taskleiste minimieren",
-  "ToolTip.MinimizeOnClose": "Die Wallet beim schließen des Fensters minimieren anstatt zu schließen",
+  "ToolTip.MinimizeOnClose": "Die Wallet beim Schließen des Fensters minimieren anstatt zu beenden",
   "ToolTip.ShowPopups": "Popups anzeigen",
   "ToolTip.Usage": "Helfen Sie den Nexus-Entwickler die Wallet stetig zu verbessern und senden Sie uns Ihre Nutzungsdaten anonym zu",
   "ToolTip.OptionalFee": "Optionale Transaktionsgebühr für Transaktionen. Höhere Gebühren ermöglichen eine schnellere Abwicklung von Transaktionen, niedrigere können zusätzliche Transaktionsverarbeitungen verursachen",
@@ -502,7 +478,7 @@
   "ToolTip.Socks4": "Nexus über einen SOCKS4 Proxy verbinden",
   "ToolTip.IPAddressofSOCKS4proxy": "IP Adresse des SOCKS4 Proxy-Servers",
   "ToolTip.PortOfSOCKS4proxyServer": "Port des SOCKS4 Proxy-Servers",
-  "ToolTip.Detach": "Trennen Sie die Datenbank wenn die Wallet geschlossen wird",
+  "ToolTip.Detach": "Trennen Sie die Datenbank, wenn die Wallet geschlossen wird",
   "ToolTip.RenderGlobe": "Rendern Sie den Globus auf der Benutzeroberfläche",
   "ToolTip.DbOption": "Möchten Sie die Zeit für die Synchronisierung reduzieren indem Sie eine aktuelle Version der Datenbank herunterladen (Empfohlen)?",
   "ToolTip.BootStrapIt": "Ja, mit dem Bootstrap beginnen.",
@@ -513,19 +489,16 @@
   "ToolTip.MinimumConfirmations": "Minimale Anzahl an Bestätigungen bevor ein Block akzeptiert wird. Nur Lokal.",
   "ToolTip.ConnectionFailure": "Verbindungsfehler",
   "ToolTip.RenderGlobeOpenGLFail": "Ihr Computer unterstützt OPENGL 2.0 nicht",
-  "ToolTip.TryAgain": "Nocheinmal versuchen?",
+  "ToolTip.TryAgain": "Noch einmal versuchen?",
 
-//  de-changes.json in
-  "ToolTip.ForkBlock": "Einige Blöcke zurück gehen", // Step Back A Amount of Blocks = Kontext ????
+  "ToolTip.ForkBlock": "Einige Blöcke zurück gehen",
   "ToolTip.NotEnoughSpace": "Nicht genug Speicherplatz! Minimum von 20GB freiem Speicherplatz erforderlich",
   "ToolTip.DatabaseDownloadSpead": "Download Geschwindigkeit: ",  
-//  de-changes.json out
   
   "Alert.Received": "Transaktion empfangen",
   "Alert.Sent": "Transaktion gesendet",
   "Alert.Genesis": "Genesis Transaktion",
   "Alert.TrustTransaction": "Trust Transaktion",
-//"Alert.regiesteredToThis": "Diese Adresse ist in dieser Wallet registriert",
   "Alert.registeredToThis": "Diese Adresse ist in dieser Wallet registriert",
   "Alert.InvalidAddress": "Ungültige Adresse",
   "Alert.Invalid": "Ungültig",
@@ -543,7 +516,7 @@
   "Alert.StyleSettingsSaved": "Designeinstellungen gespeichert",
   "Alert.NoAmmountSet": "Kein Betrag festgelegt",
   "Alert.PleaseFillOutField": "Bitte füllen Sie das Feld aus",
-  "Alert.FutureDate": "Entsperren auf eine bestimmte dauer muss mindestens eine Stunde in der Zukunft liegen",
+  "Alert.FutureDate": "Entsperren auf eine bestimmte Dauer muss mindestens eine Stunde in der Zukunft liegen",
   "Alert.IncorrectPasssword": "Falsches Passwort",
   "Alert.CoreSettingsSaved": "Core Einstellungen gespeichert",
   "Alert.ContactsExported": "Kontakte exportiert",
@@ -573,9 +546,9 @@
   "Cp.FBC": "Grundfarbe der Fußzeilen",
   "Cp.FHC": "Fußzeilenfarbe beim hervorheben",
   "Cp.FAC": "Aktive Fußzeilenfarbe",
-  "Cp.GC": "Globusfarbe", // schön ist anders
-  "Cp.GPC": "Globussäulenfarbe", // Säulen? Spalten? was ist das?
-  "Cp.GAC": "Globusbogenfarbe", // Sind das die Connection Farben
+  "Cp.GC": "Farbe der Erde",
+  "Cp.GPC": "Farbe der Standorte",
+  "Cp.GAC": "Farbe der Verbindungen",
   "Cp.PC": "Primäre Farbe",
   "Cp.PCA": "Primärer Farbton",
   "Cp.ER": "Farbe fehlerhaft",
